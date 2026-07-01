@@ -418,7 +418,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void testGridWeather3d() {
         GridWeatherParameter parameter = new GridWeatherParameter( 116.41, 39.2);
-        instance.grid3d(parameter, new Callback<GridDailyResponse>() {
+        Callback<GridDailyResponse> responseCallback = new Callback<GridDailyResponse>() {
             @Override
             public void onSuccess(GridDailyResponse response) {
                 Log.i(TAG, response.toString());
@@ -433,7 +433,8 @@ public class MainActivity extends AppCompatActivity {
             public void onException(Throwable e) {
                 e.printStackTrace();
             }
-        });
+        };
+        instance.grid3d(parameter, responseCallback);
     }
 
     private void testGridWeather7d() {
