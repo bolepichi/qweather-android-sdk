@@ -8,7 +8,7 @@
 
 | 接口代码      | 接口          | 数据类           |
 | ------------ | ------------- | ---------------- |
-| weatherNow  | 实况天气      | [WeatherNowResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weatherNow  | 实况天气      | [WeatherNowResponse](https://dev.qweather.com/docs/api/weather/weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -44,4 +44,4 @@ instance.weatherNow(parameter, new Callback<WeatherNowResponse>() {
 
 ## 返回数据
 
-[WeatherNowResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[WeatherNowResponse](https://dev.qweather.com/docs/api/weather/weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

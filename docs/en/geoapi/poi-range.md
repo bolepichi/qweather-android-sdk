@@ -6,7 +6,7 @@ POI Range iOS SDK provides the ability to query all POI information within a spe
 
 | Interface code | Interface       | Class        |
 | --------- | -------------------------- | ------------ |
-| geoPoiRange | POI Range  | [GeoPoiResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-poi-range/#response) |
+| geoPoiRange | POI Range  | [GeoPoiResponse](https://dev.qweather.com/en/docs/api/geoapi/poi-range/#response) |
 
 ## Parameters
 
@@ -21,7 +21,6 @@ POI Range iOS SDK provides the ability to query all POI information within a spe
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 GeoPoiRangeParameter parameter = new GeoPoiRangeParameter("116.41,39.92", Poi.SCENIC)
@@ -46,4 +45,4 @@ instance.geoPoiRange(parameter, new Callback<GeoPoiResponse>() {
 
 ## Response
 
-[GeoPoiResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-poi-range/#response)
+[GeoPoiResponse](https://dev.qweather.com/en/docs/api/geoapi/poi-range/#response)

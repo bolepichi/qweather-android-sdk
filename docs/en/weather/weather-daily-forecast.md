@@ -6,11 +6,11 @@ Get weather daily forecasts for the next 3-30 days for cities around the world.
 
 | Interface code     | Interface         | Class            |
 | ------------------------- | ----------------- | ---------------- |
-| weather3d   | 3-days forecast    | [WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response) |
-| weather7d   | 7-days forecast    | [WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response)  |
-| weather10d  | 10-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response)  |
-| weather15d  | 15-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response)  |
-| weather30d  | 30-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response)  |
+| weather3d   | 3-days forecast    | [WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response) |
+| weather7d   | 7-days forecast    | [WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response)  |
+| weather10d  | 10-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response)  |
+| weather15d  | 15-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response)  |
+| weather30d  | 30-days forecast   | [WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response)  |
 
 ## Parameters
 
@@ -27,21 +27,21 @@ Get weather daily forecasts for the next 3-30 days for cities around the world.
 ```java
 WeatherParameter parameter = new WeatherParameter("101120501");
 Callback<WeatherDailyResponse> responseCallback = new Callback<WeatherDailyResponse>() {
-            @Override
-            public void onSuccess(WeatherDailyResponse response) {
-                Log.i(TAG, response.toString());
-            }
+    @Override
+    public void onSuccess(WeatherDailyResponse response) {
+        Log.i(TAG, response.toString());
+    }
 
-            @Override
-            public void onFailure(ErrorResponse errorResponse) {
-                Log.i(TAG,errorResponse.toString());
-            }
+    @Override
+    public void onFailure(ErrorResponse errorResponse) {
+        Log.i(TAG,errorResponse.toString());
+    }
 
-            @Override
-            public void onException(Throwable e) {
-                e.printStackTrace();
-            }
-        };
+    @Override
+    public void onException(Throwable e) {
+        e.printStackTrace();
+    }
+};
 
 /*
 * Get 3-days forecast data
@@ -71,4 +71,4 @@ instance.weather30d(parameter, responseCallback);
 
 ## Response
 
-[WeatherDailyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-daily-forecast/#response)
+[WeatherDailyResponse](https://dev.qweather.com/en/docs/api/weather/weather-daily-forecast/#response)

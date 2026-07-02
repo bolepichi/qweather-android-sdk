@@ -14,7 +14,7 @@ We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resourc
 
 | Interface code | Interface         | Class       |
 | --------------- | ---------------- | ------------ |
-| airCurrent | Current Air Quality  | [AirV1CurrentResponse](https://dev.qweather.com/en/docs/android-sdk/air-quality/android-air-current/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| airCurrent | Current Air Quality  | [AirV1CurrentResponse](https://dev.qweather.com/en/docs/api/air-quality/air-current/#response) |
 
 ## Parameters
 
@@ -27,7 +27,6 @@ We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resourc
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 AirV1Parameter parameter  = new AirV1Parameter(39.92, 116.41);
@@ -51,4 +50,4 @@ instance.airCurrent(parameter, new Callback<AirV1CurrentResponse>() {
 
 ## Response
 
-[AirV1CurrentResponse](https://dev.qweather.com/en/docs/android-sdk/air-quality/android-air-current/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AirV1CurrentResponse](https://dev.qweather.com/en/docs/api/air-quality/air-current/#response)

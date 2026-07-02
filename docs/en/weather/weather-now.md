@@ -6,7 +6,7 @@ Get real-time weather data for 200,000+ cities around the world, including tempe
 
 | Interface code     | Interface         | Class            |
 | ------------------------- | ----------------- | ---------------- |
-| weatherNow  | Real-time weather | [WeatherNowResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-now/#response) |
+| weatherNow  | Real-time weather | [WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now/#response) |
 
 ## Parameters
 
@@ -17,7 +17,6 @@ Get real-time weather data for 200,000+ cities around the world, including tempe
 - `unit` `Unit` Set weather data unit, the available value are `unit=m` for metric(default) and `unit=i` for imperial. See more about [Unit](https://dev.qweather.com/en/docs/resource/unit).
 
 ## Sample code
-
 
 ```java
 WeatherParameter parameter = new WeatherParameter("101120501")
@@ -43,4 +42,4 @@ instance.weatherNow(parameter, new Callback<WeatherNowResponse>() {
 
 ## Response
 
-[WeatherNowResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-now/#response)
+[WeatherNowResponse](https://dev.qweather.com/en/docs/api/weather/weather-now/#response)

@@ -6,7 +6,7 @@ Get the tropical cyclones location, level, pressure, windspeed, and track path o
 
 | Interface code  | Interface | Class |
 | ---------------- | -------------- | ---------------------- |
-| tropicalStormTrack | Storm Track  | [StormTrackResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-track/#response) |
+| tropicalStormTrack | Storm Track  | [StormTrackResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-track/#response) |
 
 ## Parameters
 
@@ -15,7 +15,6 @@ Get the tropical cyclones location, level, pressure, windspeed, and track path o
 - `stormid` ***(required)*** `String` The storm ID that needs to be queried, StormID can be obtained by [Storm List](#storm-list), e.g., `stormid=NP2018`
 
 ## Sample code
-
 
 ```java
 StormParameter parameter = new StormParameter("NP_2421");
@@ -39,7 +38,7 @@ instance.tropicalStormTrack(parameter, new Callback<StormTrackResponse>() {
 
 ## Response
 
-[StormTrackResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-track/#response)
+[StormTrackResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-track/#response)
 
 ### Typhoon level
 

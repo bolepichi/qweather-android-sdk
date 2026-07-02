@@ -8,7 +8,7 @@
 
 | 接口代码          | 接口     | 数据类             |
 | --------------------------- | ---- | ------------------ |
-| gridNow | 格点实时天气| [GridNowResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| gridNow | 格点实时天气| [GridNowResponse](https://dev.qweather.com/docs/api/weather/grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -43,4 +43,4 @@ instance.gridNow(parameter, new Callback<GridNowResponse>() {
 
 ## 返回数据
 
-[GridNowResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GridNowResponse](https://dev.qweather.com/docs/api/weather/grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

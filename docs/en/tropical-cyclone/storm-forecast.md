@@ -4,20 +4,19 @@
 
 Storm Forecast provides tropical cyclones information for a specific tropical cyclone, the data including forecast tropical cyclones location, level, pressure, wind and etc.
 
-> **Note:** For inactive storms, the returned data is **NULL**, please get the storms status by [Storm List](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-list/) first.
+> **Note:** For inactive storms, the returned data is **NULL**, please get the storms status by [Storm List](./storm-list.md) first.
 
 | Interface code              | Interface     | Class                 |
 | --------------------------- | ------------- | ---------------------- |
-| tropicalStormForecast      | Storm forecast data | [StormForecastResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-forecast/#response) |
+| tropicalStormForecast      | Storm forecast data | [StormForecastResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-forecast/#response) |
 
 ## Parameters
 
 **StormParameter**
 
-- `stormid` ***(required)*** `String` The storm ID that needs to be queried, StormID can be obtained by [Storm List](#storm-list), e.g., `stormid=NP2018`
+- `stormid` ***(required)*** `String` The storm ID that needs to be queried, StormID can be obtained by [Storm List](./storm-list.md), e.g., `stormid=NP2018`
 
 ## Sample code
-
 
 ```java
 StormParameter parameter = new StormParameter("NP_2426");
@@ -41,7 +40,7 @@ instance.tropicalStormForecast(parameter, new Callback<StormForecastResponse>() 
 
 ## Response
 
-[StormForecastResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-forecast/#response)
+[StormForecastResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-forecast/#response)
 
 ### Typhoon level
 

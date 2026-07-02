@@ -6,7 +6,7 @@ POI Lookup API provides basic information of POI(scenic spot, tide stations, etc
 
 | Interface code | Interface         | Class        |
 | ---------- | --------------------------- | ------------ |
-| geoPoiLookup | POI Lookup  | [GeoPoiResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-poi-lookup/#response) |
+| geoPoiLookup | POI Lookup  | [GeoPoiResponse](https://dev.qweather.com/en/docs/api/geoapi/poi-lookup/#response) |
 
 ## Parameters
 
@@ -21,7 +21,6 @@ POI Lookup API provides basic information of POI(scenic spot, tide stations, etc
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 GeoPoiLookupParameter parameter = new GeoPoiLookupParameter("116.41,39.92", Poi.SCENIC);
@@ -45,4 +44,4 @@ instance.geoPoiLookup(parameter, new Callback<GeoPoiResponse>() {
 
 ## Response
 
-[GeoPoiResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-poi-lookup/#response)
+[GeoPoiResponse](https://dev.qweather.com/en/docs/api/geoapi/poi-lookup/#response)

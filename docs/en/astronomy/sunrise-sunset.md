@@ -6,7 +6,7 @@ Get the sunrise and sunset times for any location around the world for the next 
 
 | Interface code            | Interface     | Class       |
 | -------------------------- | -------- | ------------ |
-| astronomySun | Sunrise and Sunset | [AstronomySunResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-sunrise-sunset/#response) |
+| astronomySun | Sunrise and Sunset | [AstronomySunResponse](https://dev.qweather.com/en/docs/api/astronomy/sunrise-sunset/#response) |
 
 ## Parameters
 
@@ -16,7 +16,6 @@ Get the sunrise and sunset times for any location around the world for the next 
 - `date` ***(required)*** `String` Set the date, up to 60 days in the future (including today). The date format is yyyyMMdd. Example: `date=20200531`
 
 ## Sample code
-
 
 ```java
 SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMdd", Locale.getDefault());
@@ -42,4 +41,4 @@ instance.astronomySun(parameter, new Callback<AstronomySunResponse>() {
 
 ## Response
 
-[AstronomySunResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-sunrise-sunset/#response)
+[AstronomySunResponse](https://dev.qweather.com/en/docs/api/astronomy/sunrise-sunset/#response)

@@ -9,8 +9,8 @@
 
 | 接口代码    | 接口         | 数据类           |
 | ---------- | ------------ | --------------- |
-| indices1d | 当天生活指数   | [IndicesDailyResponse](https://dev.qweather.com/docs/android-sdk/indices/android-indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| indices3d | 3天生活指数    | [IndicesDailyResponse](https://dev.qweather.com/docs/android-sdk/indices/android-indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| indices1d | 当天生活指数   | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| indices3d | 3天生活指数    | [IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -51,7 +51,7 @@ instance.indices3d(parameter, responseCallback);
 
 ## 返回数据
 
-[IndicesDailyResponse](https://dev.qweather.com/docs/android-sdk/indices/android-indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[IndicesDailyResponse](https://dev.qweather.com/docs/api/indices/indices-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
 
 ### 生活指数类型和等级
 

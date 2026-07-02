@@ -8,7 +8,7 @@
 
 | 接口代码           | 接口     | 数据类       |
 | -------------------------- | -------- | ------------ |
-| astronomySun | 日出日落 | [AstronomySunResponse](https://dev.qweather.com/docs/android-sdk/astronomy/android-sunrise-sunset/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| astronomySun | 日出日落 | [AstronomySunResponse](https://dev.qweather.com/docs/api/astronomy/sunrise-sunset/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -44,4 +44,4 @@ instance.astronomySun(parameter, new Callback<AstronomySunResponse>() {
 
 ## 返回数据
 
-[AstronomySunResponse](https://dev.qweather.com/docs/android-sdk/astronomy/android-sunrise-sunset/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AstronomySunResponse](https://dev.qweather.com/docs/api/astronomy/sunrise-sunset/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

@@ -15,7 +15,7 @@ Get the last 10 days of weather history data.
 
 | Interface code      | Interface              | Class                      |
 | ------------------- | ---------------------- | -------------------------- |
-| historicalWeather      | Historical weather     | [HistoricalWeatherResponse](https://dev.qweather.com/en/docs/android-sdk/time-machine/android-time-machine-weather/#response)      |
+| historicalWeather      | Historical weather     | [HistoricalWeatherResponse](https://dev.qweather.com/en/docs/api/time-machine/time-machine-weather/#response)      |
 
 ## Parameters
 
@@ -27,7 +27,6 @@ Get the last 10 days of weather history data.
 * `unit` `Unit` Set weather data unit, the available value are `unit=m` for metric(default) and `unit=i` for imperial. See more about [Unit](https://dev.qweather.com/en/docs/resource/unit).
 
 ## Sample code
-
 
 ```java
 Calendar calendar = Calendar.getInstance();
@@ -59,4 +58,4 @@ instance.historicalWeather(parameter, new Callback<HistoricalWeatherResponse>() 
 
 ## Response
 
-[HistoricalWeatherResponse](https://dev.qweather.com/en/docs/android-sdk/time-machine/android-time-machine-weather/#response)
+[HistoricalWeatherResponse](https://dev.qweather.com/en/docs/api/time-machine/time-machine-weather/#response)

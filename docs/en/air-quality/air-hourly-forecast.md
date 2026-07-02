@@ -8,7 +8,7 @@ We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resourc
 
 | Interface code | Interface                 | Class       |
 | --------------- | ---------------------------- | ------------ |
-| airHourly | Air quality hourly forecast    | [AirV1HourlyResponse](https://dev.qweather.com/en/docs/android-sdk/air-quality/android-air-hourly-forecast/#response) |
+| airHourly | Air quality hourly forecast    | [AirV1HourlyResponse](https://dev.qweather.com/en/docs/api/air-quality/air-hourly-forecast/#response) |
 
 ## Parameters
 
@@ -21,7 +21,6 @@ We recommend to read [Air Quality Info](https://dev.qweather.com/en/docs/resourc
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 AirV1Parameter parameter  = new AirV1Parameter( 39.92, 116.41);
@@ -45,4 +44,4 @@ instance.airHourly(parameter, new Callback<AirV1HourlyResponse>() {
 
 ## Response
 
-[AirV1HourlyResponse](https://dev.qweather.com/en/docs/android-sdk/air-quality/android-air-hourly-forecast/#response)
+[AirV1HourlyResponse](https://dev.qweather.com/en/docs/api/air-quality/air-hourly-forecast/#response)

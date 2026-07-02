@@ -6,7 +6,7 @@
 
 | 接口代码     | 接口     | 数据类           |
 | -------------------- | -------- | ---------------- |
-| weatherAlertCurrent | 实时天气预警 | [WeatherAlertCurrentResponse](https://dev.qweather.com/docs/android-sdk/warning/android-weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weatherAlertCurrent | 实时天气预警 | [WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -41,4 +41,4 @@ instance.weatherAlertCurrent(parameter, new Callback<WeatherAlertCurrentResponse
 
 ## 返回数据
 
-[WeatherAlertCurrentResponse](https://dev.qweather.com/docs/android-sdk/warning/android-weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[WeatherAlertCurrentResponse](https://dev.qweather.com/docs/api/warning/weather-alert/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

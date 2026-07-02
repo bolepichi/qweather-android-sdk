@@ -8,7 +8,7 @@
 
 | 接口代码 | 接口                         | 数据类      |
 | --------------- | ---------------------------- | ------------ |
-| airDaily | 空气质量每日预报    | [AirV1DailyResponse](https://dev.qweather.com/docs/android-sdk/air-quality/android-air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| airDaily | 空气质量每日预报    | [AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -42,4 +42,4 @@ instance.airDaily(parameter, new Callback<AirV1DailyResponse>() {
 
 ## 返回数据
 
-[AirV1DailyResponse](https://dev.qweather.com/docs/android-sdk/air-quality/android-air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AirV1DailyResponse](https://dev.qweather.com/docs/api/air-quality/air-daily-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

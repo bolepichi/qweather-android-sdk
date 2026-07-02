@@ -6,9 +6,9 @@ Get hourly weather forecasts for cities around the world for the next 24-168 hou
 
 | Interface code  | Interface         | Class            |
 | --------------- | ----------------- | ---------------- |
-| weather24h  | 24-hours forecast  | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-hourly-forecast/#response) |
-| weather72h  | 72-hours forecast  | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-hourly-forecast/#response)  |
-| weather168h | 168-hours forecast | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-hourly-forecast/#response)  |
+| weather24h  | 24-hours forecast  | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/api/weather/weather-hourly-forecast/#response) |
+| weather72h  | 72-hours forecast  | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/api/weather/weather-hourly-forecast/#response)  |
+| weather168h | 168-hours forecast | [WeatherHourlyResponse](https://dev.qweather.com/en/docs/api/weather/weather-hourly-forecast/#response)  |
 
 ## Parameters
 
@@ -57,4 +57,4 @@ instance.weather168h(parameter, responseCallback);
 
 ## Response
 
-[WeatherHourlyResponse](https://dev.qweather.com/en/docs/android-sdk/weather/android-weather-hourly-forecast/#response)
+[WeatherHourlyResponse](https://dev.qweather.com/en/docs/api/weather/weather-hourly-forecast/#response)

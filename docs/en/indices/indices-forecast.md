@@ -9,8 +9,8 @@ Get weather indices forecast data for cities in China and around the world.
 
 | Interface code   | Interface             | Class            |
 | ---------------- | ------------------ | ---------------- |
-| indices1d | Today Weather Indices           | [IndicesDailyResponse](https://dev.qweather.com/en/docs/android-sdk/indices/android-indices-forecast/#response) |
-| indices3d | Weather Indices 3-days forecast | [IndicesDailyResponse](https://dev.qweather.com/en/docs/android-sdk/indices/android-indices-forecast/#response) |
+| indices1d | Today Weather Indices           | [IndicesDailyResponse](https://dev.qweather.com/en/docs/api/indices/indices-forecast/#response) |
+| indices3d | Weather Indices 3-days forecast | [IndicesDailyResponse](https://dev.qweather.com/en/docs/api/indices/indices-forecast/#response) |
 
 ## Parameters
 
@@ -51,7 +51,7 @@ instance.indices3d(parameter, responseCallback);
 
 ## Response
 
-[IndicesDailyResponse](https://dev.qweather.com/en/docs/android-sdk/indices/android-indices-forecast/#response)
+[IndicesDailyResponse](https://dev.qweather.com/en/docs/api/indices/indices-forecast/#response)
 
 ### Index type and level
 
