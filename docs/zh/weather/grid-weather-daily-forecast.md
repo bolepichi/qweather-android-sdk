@@ -8,8 +8,8 @@
 
 | 接口代码            | 接口     | 数据类             |
 | ----------------- | ---- | ------------------ |
-| grid3d | 格点3天预报| [GridDailyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| grid7d | 格点7天预报| [GridDailyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| grid3d | 格点3天预报| [GridDailyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| grid7d | 格点7天预报| [GridDailyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -55,4 +55,4 @@ instance.grid7d(parameter, responseCallback);
 
 ## 返回数据
 
-[GridDailyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GridDailyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-now/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

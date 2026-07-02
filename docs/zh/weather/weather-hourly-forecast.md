@@ -6,9 +6,9 @@
 
 | 接口代码      | 接口          | 数据类           |
 | ------------ | ------------ | ---------------- |
-| weather24h  | 24小时预报况  | [WeatherHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| weather72h  | 72小时预报况  | [WeatherHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| weather168h | 168小时预报况 | [WeatherHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weather24h  | 24小时预报况  | [WeatherHourlyResponse](https://dev.qweather.com/docs/api/weather/weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weather72h  | 72小时预报况  | [WeatherHourlyResponse](https://dev.qweather.com/docs/api/weather/weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| weather168h | 168小时预报况 | [WeatherHourlyResponse](https://dev.qweather.com/docs/api/weather/weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -57,4 +57,4 @@ instance.weather168h(parameter, responseCallback);
 
 ## 返回数据
 
-[WeatherHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[WeatherHourlyResponse](https://dev.qweather.com/docs/api/weather/weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

@@ -6,7 +6,7 @@ Global tidal data for the next 10 days, including tide table and hourly tide for
 
 | Interface code        | Interface     | Class             |
 | ----------------------- | ---- | ------------------ |
-| oceanTide | Tide | [OceanTideResponse](https://dev.qweather.com/en/docs/android-sdk/ocean/android-tide/#response) |
+| oceanTide | Tide | [OceanTideResponse](https://dev.qweather.com/en/docs/api/ocean/tide/#response) |
 
 ## Parameters
 
@@ -47,4 +47,4 @@ instance.oceanTide(parameter, new Callback<OceanTideResponse>() {
 
 ## Response
 
-[OceanTideResponse](https://dev.qweather.com/en/docs/android-sdk/ocean/android-tide/#response)
+[OceanTideResponse](https://dev.qweather.com/en/docs/api/ocean/tide/#response)

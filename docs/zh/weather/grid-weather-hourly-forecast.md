@@ -8,8 +8,8 @@
 
 | 接口代码           | 接口     | 数据类             |
 | --------------------------- | ---- | ------------------ |
-| grid24h | 逐小时预报（未来24小时）| [GridHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
-| grid72h | 逐小时预报（未来72小时）| [GridHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| grid24h | 逐小时预报（未来24小时）| [GridHourlyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| grid72h | 逐小时预报（未来72小时）| [GridHourlyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -54,4 +54,4 @@ instance.grid72h(parameter, responseCallback);
 
 ## 返回数据
 
-[GridHourlyResponse](https://dev.qweather.com/docs/android-sdk/weather/android-grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[GridHourlyResponse](https://dev.qweather.com/docs/api/weather/grid-weather-hourly-forecast/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

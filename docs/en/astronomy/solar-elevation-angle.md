@@ -6,7 +6,7 @@ Get global solar elevation angle and azimuth.
 
 | Interface code                   | Interface       | Class            |
 | -------------------------------- | ---------- | ----------------- |
-| astronomySolarElevationAngle | Solar elevation angle data | [AstronomySolarElevationAngleResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-solar-elevation-angle/#response) |
+| astronomySolarElevationAngle | Solar elevation angle data | [AstronomySolarElevationAngleResponse](https://dev.qweather.com/en/docs/api/astronomy/solar-elevation-angle/#response) |
 
 ## Parameters
 
@@ -19,7 +19,6 @@ Get global solar elevation angle and azimuth.
 - `alt` ***(required)*** `Int` Location altitude, in meters, e.g., `alt=43`
 
 ## Sample code
-
 
 ```java
 Date currentDate = new Date();
@@ -50,4 +49,4 @@ instance.astronomySolarElevationAngle(parameter, new Callback<AstronomySolarElev
 
 ## Response
 
-[AstronomySolarElevationAngleResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-solar-elevation-angle/#response)
+[AstronomySolarElevationAngleResponse](https://dev.qweather.com/en/docs/api/astronomy/solar-elevation-angle/#response)

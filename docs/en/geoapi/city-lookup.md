@@ -10,7 +10,7 @@ In addition, GeoAPI - City Lookup can also help you to implement fuzzy search in
 
 | Interface code | Interface     | Class                 |
 | -------------- | ------------- | --------------------- |
-| geoCityLookup | City lookup   | [GeoCityLookupResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-sunrise-sunset/#response) |
+| geoCityLookup | City lookup   | [GeoCityLookupResponse](https://dev.qweather.com/en/docs/api/geoapi/city-lookup/#response) |
 
 ## Parameters
 
@@ -23,7 +23,6 @@ In addition, GeoAPI - City Lookup can also help you to implement fuzzy search in
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 GeoCityLookupParameter parameter = new GeoCityLookupParameter("101120501");
@@ -47,4 +46,4 @@ QWeather.instance.geoCityLookup(parameter, new Callback<GeoCityLookupResponse>()
 
 ## Response
 
-[GeoCityLookupResponse](https://dev.qweather.com/en/docs/android-sdk/astronomy/android-sunrise-sunset/#response)
+[GeoCityLookupResponse](https://dev.qweather.com/en/docs/api/geoapi/city-lookup/#response)

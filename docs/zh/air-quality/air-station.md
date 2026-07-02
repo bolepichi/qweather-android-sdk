@@ -8,7 +8,7 @@
 
 | 接口代码 | 接口         | 数据类        |
 | --------------- | ---------------- | ------------ |
-| airStation | 监测站数据  | [AirV1StationResponse](https://dev.qweather.com/docs/android-sdk/air-quality/android-air-station/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
+| airStation | 监测站数据  | [AirV1StationResponse](https://dev.qweather.com/docs/api/air-quality/air-station/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE) |
 
 ## 参数
 
@@ -41,4 +41,4 @@ instance.airStation(parameter, new Callback<AirV1StationResponse>() {
 
 ## 返回数据
 
-[AirV1StationResponse](https://dev.qweather.com/docs/android-sdk/air-quality/android-air-station/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)
+[AirV1StationResponse](https://dev.qweather.com/docs/api/air-quality/air-station/#%E8%BF%94%E5%9B%9E%E6%95%B0%E6%8D%AE)

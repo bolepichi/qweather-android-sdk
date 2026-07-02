@@ -8,7 +8,7 @@ Get a list of tropical cyclones for the last 2 years in major ocean basins aroun
 
 | Interface code     | Interface          | Class             |
 | ------------------ | ------------------ | ----------------- |
-| tropicalStormList | Storm list | [StormListResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-list/#response) |
+| tropicalStormList | Storm list | [StormListResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-list/#response) |
 
 ## Parameters
 
@@ -24,7 +24,6 @@ Get a list of tropical cyclones for the last 2 years in major ocean basins aroun
 - `year` ***(required)*** `String` Support to query storm of this year and last year, e.g., `year=2020`
 
 ## Sample code
-
 
 ```java
 StormListParameter parameter = new StormListParameter(Basin.NP,2024);
@@ -48,4 +47,4 @@ instance.tropicalStormList(parameter, new Callback<StormListResponse>() {
 
 ## Response
 
-[StormListResponse](https://dev.qweather.com/en/docs/android-sdk/tropical-cyclone/android-storm-list/#response)
+[StormListResponse](https://dev.qweather.com/en/docs/api/tropical-cyclone/storm-list/#response)

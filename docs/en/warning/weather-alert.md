@@ -8,7 +8,7 @@ Get officially issued real-time severe weather alert data around the world.
 
 | Interface code     | Interface    | Class           |
 | -------------------- | -------- | ---------------- |
-| weatherAlertCurrent | Weather Alert | [WeatherAlertCurrentResponse](https://dev.qweather.com/en/docs/android-sdk/warning/android-weather-alert/#response) |
+| weatherAlertCurrent | Weather Alert | [WeatherAlertCurrentResponse](https://dev.qweather.com/en/docs/api/warning/weather-alert/#response) |
 
 ## Parameters
 
@@ -20,7 +20,6 @@ Get officially issued real-time severe weather alert data around the world.
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 WeatherAlertCurrentParameter parameter = new WeatherAlertCurrentParameter(39.2,  116.41, true);
@@ -44,4 +43,4 @@ instance.weatherAlertCurrent(parameter, new Callback<WeatherAlertCurrentResponse
 
 ## Response
 
-[WeatherAlertCurrentResponse](https://dev.qweather.com/en/docs/android-sdk/warning/android-weather-alert/#response)
+[WeatherAlertCurrentResponse](https://dev.qweather.com/en/docs/api/warning/weather-alert/#response)

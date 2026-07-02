@@ -6,7 +6,7 @@ Get a list of popular cities around the world.
 
 | Interface code | Interface     | Class              |
 | -------------- | ------------- | ------------------ |
-| geoCityTop    | Top city      | [GeoCityTopResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-top-city/#response) |
+| geoCityTop    | Top city      | [GeoCityTopResponse](https://dev.qweather.com/en/docs/api/geoapi/top-city/#response) |
 
 ## Parameters
 
@@ -17,7 +17,6 @@ Get a list of popular cities around the world.
 - `lang` `Lang` Multi-language setting, please see [Language](https://dev.qweather.com/en/docs/resource/language/) to find out how our multi-language works and how to set up.
 
 ## Sample code
-
 
 ```java
 GeoCityTopParameter parameter = new GeoCityTopParameter().range(Range.CN);
@@ -42,4 +41,4 @@ instance.geoCityTop(parameter, new Callback<GeoCityTopResponse>() {
 
 ## Response
 
-[GeoCityTopResponse](https://dev.qweather.com/en/docs/android-sdk/geoapi/android-top-city/#response)
+[GeoCityTopResponse](https://dev.qweather.com/en/docs/api/geoapi/top-city/#response)

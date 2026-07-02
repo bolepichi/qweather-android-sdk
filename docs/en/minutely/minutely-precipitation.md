@@ -8,7 +8,7 @@ Get minute-level precipitation forecast data every 5 minutes for the next 2 hour
 
 | Interface code| Interface  | Class |
 | ---------- | ----------- | ------------ |
-| minutely | Minutely Precipitation  | [MinutelyResponse](https://dev.qweather.com/en/docs/android-sdk/minutely/android-minutely-precipitation/#response) |
+| minutely | Minutely Precipitation  | [MinutelyResponse](https://dev.qweather.com/en/docs/api/minutely/minutely-precipitation/#response) |
 
 ## Parameters
 
@@ -42,4 +42,4 @@ instance.minutely(parameter, new Callback<MinutelyResponse>() {
 
 ## Response
 
-[MinutelyResponse](https://dev.qweather.com/en/docs/android-sdk/minutely/android-minutely-precipitation/#response)
+[MinutelyResponse](https://dev.qweather.com/en/docs/api/minutely/minutely-precipitation/#response)
